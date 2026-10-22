@@ -1,0 +1,13 @@
+BOT_NAME = "doctor_directory"
+SPIDER_MODULES = ["doctor_directory.spiders"]
+NEWSPIDER_MODULE = "doctor_directory.spiders"
+ROBOTSTXT_OBEY = True
+USER_AGENT = "TamilNaduDoctorDirectoryCoursework/1.0 (contact: replace-with-your-college-email)"
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
+DOWNLOAD_DELAY = 3
+AUTOTHROTTLE_ENABLED = True
+AUTOTHROTTLE_START_DELAY = 3
+AUTOTHROTTLE_MAX_DELAY = 15
+AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
+FEED_EXPORT_ENCODING = "utf-8"
+LOG_LEVEL = "INFO"
